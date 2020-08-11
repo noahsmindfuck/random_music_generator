@@ -82,7 +82,7 @@ do
 	fi
 
 	#Randomly generate duration of sound
-	holt=$(echo " 1 / $(shuf -i 1-10 -n 1) * $(shuf -i 1-3 -n 1)" | bc -l)
+	holt=$(echo " 1 / $(shuf -i 1-15 -n 1) * $(shuf -i 1-2 -n 1)" | bc -l)
 	
 	#randomly choose to make longer/shorter breaks between notes
 	if [ $(shuf -i 0-10 -n 1) -eq 0 ]
